@@ -1,12 +1,25 @@
-vaderSentiment
-textblob
-openpyxl
-pandas
-wordcloud
-sentence-transformers
-hdbscan
-umap-learn
-gensim
+# Core NLP & Sentiment Tools
+vaderSentiment==3.3.2
+textblob==0.18.0.post0
+
+# Data Handling
+openpyxl>=3.1.2
+pandas>=1.5.3
+
+# Visualization
+wordcloud==1.9.3
+
+# Embeddings & Transformers
+sentence-transformers==2.5.1
+
+# Clustering & Dimensionality Reduction
+hdbscan==0.8.33
+umap-learn==0.5.5
+gensim==4.3.2
+
+# OpenAI SDK
 openai>=1.0.0
-streamlit
-watchdog
+
+# UI
+streamlit>=1.33.0
+watchdog>=3.0.0
