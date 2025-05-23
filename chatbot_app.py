@@ -58,7 +58,7 @@ if prompt := st.chat_input("Ask your SDG reporting question here..."):
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    df = load_csv_data("data/food.csv")
+    df = load_csv_data("src/data/food.csv")
     if df.empty:
         assistant_reply = "⚠️ Food dataset failed to load."
     else:
